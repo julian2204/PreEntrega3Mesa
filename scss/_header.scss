@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+header{
+    background-color: $bg-header;
+    .container > .navbar-brand{
+            font-family: 'Berkshire Swash', cursive;
+            font-size: 30px;
+            }
+        
+    }

@@ -1,0 +1,34 @@
+@import "./variables";
+@import "./reset";
+@import "./header";
+
+
+main{
+    .carousel{
+        max-width: 800px;
+    }
+    .container{
+        .row{
+            .col{
+                .img-fluid{
+                    border-radius: 0.5rem;
+                    &:hover{
+                        transform: scale(1.05);
+                    }
+                }                
+                p{
+                    text-align: center;
+                    font-size: 1rem;
+                
+                }
+            }
+        }
+    }
+    div{
+        div{p{
+        font-size: 1.5rem;
+
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+header {
+  background-color: #9bfab0; }
+  header .container > .navbar-brand {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 30px; }
+
+main .carousel {
+  max-width: 800px; }
+
+main .container .row .col .img-fluid {
+  border-radius: 0.5rem; }
+  main .container .row .col .img-fluid:hover {
+    transform: scale(1.05); }
+
+main .container .row .col p {
+  text-align: center;
+  font-size: 1rem; }
+
+main div div p {
+  font-size: 1.5rem; }
